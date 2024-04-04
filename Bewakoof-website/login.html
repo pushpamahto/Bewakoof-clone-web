@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="login-parent">
+        <div class="left-login-img">
+            <h1>Welcome to the world of Bewakoof®!</h1>
+            <img src="./assets/login-bg.webp" alt="" srcset="" width="100%">
+        </div>
+        <div class="rightloginform">
+            <h3>Log in / Sign up</h3>
+            <h4>for Latest trends, exciting offers and everything Bewakoof®!</h4>
+           
+                <div class="form-inner">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">
+                        </div>
+                        <button type="submit" class="form-submit">Continue</button>
+                        <div class="parenthr">
+                           <div class="borderhr"></div>
+                           <div class="or"> OR</div>
+                           <div class="borderhr"></div>
+                        </div>
+                        <div class="continuemail">
+                            <button type="button" class="email-submit"> <img src="./assets/emailimg.jpg" alt=""> Continue With Email</button>
+                        </div>
+                        <div class="googlewithfacebook">
+                            <a href="#" class="google-btn"> <img src="./assets/google.jpg" alt=""> Google</a>
+                           <a href="#" class="google-btn"> <img src="./assets/facebook.jpg" alt=""> Google</a>
+                        </div>
+                        <p class="termsAndConditions">By creating an account or logging in, you agree with Bewakoof<span class="tradeMark">®</span>'s <a href="https://www.bewakoof.com/terms-and-conditions" target="_blank">Terms and Conditions </a>and <a href="https://www.bewakoof.com/privacy-policy-and-disclaimer" target="_blank">Privacy Policy</a>.</p>
+                    </form>
+                </div>
+         
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
+
+    <script>
+        $("#mobile_code").intlTelInput({
+	initialCountry: "in",
+	separateDialCode: true,
+});
+    </script>
+
+</body>
+</html>

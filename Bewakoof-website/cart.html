@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+
+    <style>
+        body{
+            font-family: montserrat-bold, sans-serif;
+        }
+
+       
+        #upper_box{
+            margin-top: 5%;
+            /* margin: auto; */
+            /* border: 1px solid red; */
+            align-items: center;
+        }
+        #pic{
+            margin: auto;
+            /* align-items: center; */
+            text-align: center;
+        }
+        
+        #pic > img{
+            margin: auto;
+            width: 200px;
+            height: 200px;
+        } 
+        button{
+            text-decoration: none;
+            width: 200px;
+            height: 50px;
+            border: 3px solid turquoise;
+            border-radius: 10px;
+            color: rgb(12, 222, 201);
+            background-color: white;
+            font-size: 20px;
+        }
+        button:hover{
+            cursor: pointer;
+        }
+        #ptag{
+            text-align: center;
+            font-size: medium;
+        }
+        #bottom_box{
+            margin: auto;
+            align-items: center;
+        }
+        .box1 {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box2{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        #footer {
+            /* margin: auto; */
+            margin: auto;
+            text-align: center;
+            justify-content: center;
+            
+        }
+        #footer > img{
+            margin-top: 2%;
+            
+        }
+        hr{
+            width: 65%;
+        }
+        @media screen and (min-width:220px) and (max-width:520px) {
+
+            .box2{
+                display: flex;
+               flex-direction: column;
+               text-align: center;
+                
+                
+            }
+            .box1{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+
+
+        }
+           
+           
+        
+
+    </style>
+
+</head>
+<body>
+    <div class="container1">
+        <div id="upper_box">
+            <div id="pic">
+                <img src="./assets/cart-img.png" alt="">
+                <h3>Nothing in the bag</h3>
+                <br>
+               <a href="index.html">
+                <button>Continue Shopping</button>
+               </a> 
+            </div>
+        </div>
+
+        <br>
+
+        <hr>
+
+        <br>
+
+        <p id="ptag">You could try one of these categories:</p>
+
+        <div id="bottom_box">
+            <div class="box1">
+                <div>
+                    <h4>Men</h4>
+                </div>
+                <div>
+                    <a href="index.html">Topwear</a>
+                    <br>
+                    <a href="index.html">Footwear</a>
+                </div>
+                <div>
+                    <a href="index.html">Bottomwear</a>
+                    <br>
+                    <a href="index.html">Bestsellers</a>
+                    
+                </div>
+            </div>
+
+            <div class="box2">
+                <div>
+                    <h4>Women</h4>
+                </div>
+                <div>
+                    <a href="index.html">Topwear</a>
+                    <br>
+                    <a href="index.html">Bestseller</a>
+                </div>
+                <div>
+                    <a href="index.html">Bottomwear</a>
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div id="footer">
+            <img src="./assets/secure-payments-image.webp" alt="">
+        </div>
+
+
+    </div>
+    
+    
+    
+</body>
+</html>
