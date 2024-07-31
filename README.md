@@ -3,7 +3,8 @@
 Bewakoof Clone Website
 The Bewakoof clone website, developed as a project by Masai School, offers a delightful shopping experience reminiscent of the popular online fashion store, Bewakoof. This website is designed to provide users with a seamless platform to browse, select, and purchase trendy clothing and accessories.
 
-Features:
+Features:-
+
 User-Friendly Interface: The website boasts an intuitive and user-friendly interface, making it easy for visitors to navigate through the various categories of products.
 
 Product Categories: Users can explore a wide range of products including t-shirts, hoodies, joggers, mobile covers, and more. Each category is neatly organized for easy browsing.
@@ -18,7 +19,8 @@ Responsive Design: The website is designed to be responsive, ensuring a seamless
 
 Local Storage: To enhance user convenience, the website utilizes local storage. This feature enables users to save their favorite items or maintain a wishlist across sessions without the need for an account.
 
-Tech Stack:
+Tech Stack:-
+
 HTML: The structure of the website is built using HTML (Hypertext Markup Language), ensuring a solid foundation for content and layout.
 
 CSS: Cascading Style Sheets (CSS) are used to define the visual presentation of the website, including colors, fonts, and overall styling. CSS Grid and Flexbox are employed for responsive design.
