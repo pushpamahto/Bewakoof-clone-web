@@ -21,15 +21,14 @@ Local Storage: To enhance user convenience, the website utilizes local storage. 
 
 Tech Stack:-
 
-HTML: The structure of the website is built using HTML (Hypertext Markup Language), ensuring a solid foundation for content and layout.
+HTML
+CSS
+JavaScript 
+Local Storage
 
-CSS: Cascading Style Sheets (CSS) are used to define the visual presentation of the website, including colors, fonts, and overall styling. CSS Grid and Flexbox are employed for responsive design.
+Deployed Link: https://beamish-heliotrope-a02a74.netlify.app/
 
-JavaScript: The dynamic functionalities of the website, such as adding items to the cart, updating quantities, and handling the checkout process, are powered by JavaScript. AJAX may be used for smooth, asynchronous interactions.
 
-Local Storage: To provide a personalized experience, local storage is implemented using JavaScript. This allows users to save their preferences and items in the cart, persisting even when they close the browser.
-
-Security: The website employs secure practices to protect user data during the checkout process, ensuring a safe transaction environment.
 
 Conclusion:
 The Bewakoof clone website developed by Masai School encapsulates the essence of a modern online fashion store. With its user-friendly interface, diverse product range, and efficient features like local storage, it aims to provide users with a memorable and convenient shopping journey. Whether you're looking for the latest trends in apparel or stylish accessories, this website offers a platform to explore and shop with ease.
